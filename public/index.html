@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="/public/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper flex">
+    <div class="form back">
+        <h2>Get in touch</h2>
+        <form method="POST" action="/" class="form-lines">
+            <div class="form-field flex">
+                <input name="firstname" placeholder="First Name" type="text" class="field"/>
+            </div>
+            <br/>
+            <div class="form-field flex">
+                <input name="lastname" placeholder="Last Name" type="text" class="field"/>
+            </div>
+            <br/>
+            <div class="form-field flex">
+                <input name="email" placeholder="Your Email" type="email" class="field"/>
+            </div>
+            <br/>
+            <div class="form-field flex">
+                <input name="phone" placeholder="Your Phone" type="tel" class="field"/>
+            </div>
+            <br/>
+            <div class="form-field flex">
+            <textarea name="message" placeholder="Write a message..." class="field textarea"></textarea>
+            </div>
+            <br/>
+            <div>
+            <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

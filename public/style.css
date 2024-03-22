@@ -1,0 +1,123 @@
+body {
+    background-image: url("/public/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #2eabce;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgba(43,45,47,0.5);
+}
+
+.back {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form {
+    width: 60%; 
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10px 50px;
+    margin-top: 80px;
+}
+
+h2, p {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 35px;
+    color: #20D5BF;
+    text-shadow: 2px 2px 13px #000;
+}
+
+.form-lines {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-field {
+    width: 100%;
+}
+
+.field {
+    width: 90%;
+    padding: 13px 10px;
+    border: none;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 16px;
+    color:#328A7A;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.field:focus {
+    box-shadow: 3px 3px 15px #344A53;
+    background: #D3EEE7;
+}
+
+.textarea {
+    height: 80px;
+}
+
+.btn {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 18px;
+    padding: 10px 40px;
+    border:none;
+    border-radius: 10px;
+    background-color: #20D5BF;
+    text-shadow: 2px 2px 13px #000;
+    color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover {
+    background-color: #009D8A;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 200px 10px;
+}
+
+p {
+    padding: 20px 10px;
+    margin: 20px 10px;
+    color:#ffffff;
+}
+
+
+@media all and (max-width: 540px) {
+    .form {
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        height: 550px;
+    }
+
+}
